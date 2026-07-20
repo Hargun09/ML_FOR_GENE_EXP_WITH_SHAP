@@ -56,5 +56,5 @@ pip install pandas numpy scikit-learn xgboost lightgbm shap matplotlib
 ## Usage
 
 1. Run `FEATURE_SELECTION.ipynb` to generate the selected gene set.
-2. Run any of the model notebooks to train and evaluate that model.
+2. Run any of the model notebooks to train and evaluate that model on the external validation dataset.
 3. SHAP analysis is included in every notebook. 
