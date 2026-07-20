@@ -21,7 +21,6 @@ Input files
 lasso_batchy.csv — main training data (LASSO-selected gene features + labels), used for cross-validation and hyperparameter tuning in every model notebook
 validation_count_matrix.csv — held-out validation set expression matrix
 LASSO_GENES.txt — list of genes selected by LASSO, used to subset the validation matrix
-BATCHY_LASSO_VAL.csv — alternate input (referenced in logistic_regression_2026.ipynb, not actively used)
 
 ## Validation
 
