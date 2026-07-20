@@ -17,7 +17,7 @@ then uses SHAP to explain the best-performing model.
 | `lightGBM_2026.ipynb` | LightGBM |
 | `logistic_regression_2026.ipynb` | Logistic Regression |
 
-## Input files
+## Input files - given in the data folder
 **lasso_batchy.csv** - main training data (LASSO-selected gene features + labels), used for cross-validation and hyperparameter tuning in every model notebook
 
 **validation_count_matrix.csv** - held-out validation set expression matrix
