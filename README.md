@@ -1,4 +1,4 @@
-# Gene Expression Classification — ML Models
+# Gene Expression Classification - ML Models
 
 This repo trains and compares multiple machine learning models on a
 gene expression dataset (features selected via `FEATURE_SELECTION.ipynb`),
