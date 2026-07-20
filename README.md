@@ -28,9 +28,9 @@ All models are evaluated using:
 **SHAP** is applied to the best-performing model to explain feature
 contributions and identify the most important genes for prediction.
 
-- **TreeExplainer** — used for tree-based models (Random Forest, XGBoost,
+- **TreeExplainer** - used for tree-based models (Random Forest, XGBoost,
   LightGBM, AdaBoost, Decision Tree). Fast and exact for these models.
-- **KernelExplainer** — used for non-tree models (SVC, Logistic Regression).
+- **KernelExplainer** - used for non-tree models (SVC, Logistic Regression).
   Model-agnostic but slower, so it's run on a smaller background sample.
 
 Both give SHAP values showing how much each gene pushes a prediction
@@ -57,4 +57,4 @@ pip install pandas numpy scikit-learn xgboost lightgbm shap matplotlib
 
 1. Run `FEATURE_SELECTION.ipynb` to generate the selected gene set.
 2. Run any of the model notebooks to train and evaluate that model.
-3. SHAP analysis is included in the best-performing model's notebook.
+3. SHAP analysis is included in every notebook. 
