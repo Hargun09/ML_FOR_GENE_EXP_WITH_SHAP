@@ -36,10 +36,9 @@ All models are evaluated using:
 contributions and identify the most important genes for prediction.
 
 - **TreeExplainer** - used for tree-based models (Random Forest, XGBoost,
-  LightGBM, AdaBoost, Decision Tree). Fast and exact for these models.
+  LightGBM, AdaBoost, Decision Tree). 
 - **KernelExplainer** - used for non-tree models (SVC, Logistic Regression).
-  Model-agnostic but slower, so it's run on a smaller background sample.
-
+  
 Both give SHAP values showing how much each gene pushes a prediction
 toward disease or control, and are used to rank the top genes.
 
